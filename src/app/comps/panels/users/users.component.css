@@ -1,0 +1,16 @@
+.users-panel{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: lightskyblue;
+}
+h3{
+    text-align: center;
+    margin: 15px;
+    border: double 2px black;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: #dddddd;
+ 
+  
+}

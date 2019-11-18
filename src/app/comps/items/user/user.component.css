@@ -1,0 +1,15 @@
+.user{
+    background-color: rgb(228, 216, 194);
+    margin: 20px;
+    border: goldenrod solid 5px;
+    border-radius: 60px;
+    padding: 11px;
+
+}
+.user:hover{
+    cursor: pointer;
+    background-color: gold;
+}
+span{
+    font-weight: bold;
+}

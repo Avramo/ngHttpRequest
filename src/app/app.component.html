@@ -1,0 +1,22 @@
+<!-- <comment></comment>
+<post></post>
+<todo></todo>
+<user></user>
+
+<comments-panel></comments-panel>
+<posts-panel></posts-panel>
+<todos-panel></todos-panel>
+
+
+<user-options></user-options> -->
+
+
+<div class="mainDiv">
+
+
+    <users-panel  *ngIf = "locationSVC.currentLocation == 'users-panel' "></users-panel>
+    <user-options *ngIf = "locationSVC.currentLocation == 'user-options' "></user-options>
+  
+
+
+</div>

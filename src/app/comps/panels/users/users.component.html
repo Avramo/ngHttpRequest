@@ -1,0 +1,45 @@
+
+
+
+    <h3>Select a User</h3>
+<div class="users-panel">
+    <user *ngFor = 'let u of usersSVC.allUsers' [usr]='u' (click)='selectUser(u)'></user>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- id": number
+    "name": string
+    "username": string
+    "email": string
+    "address": {
+      "street": string
+      "suite": string
+      "city": string
+      "zipcode": string
+      "geo": {
+            "lat": string
+            "lng": string
+        }
+    }
+    "phone": string
+    "website": string
+    "company": {
+      "name":string
+      "catchPhrase": string
+      "bs": string
+    }
+
+  } -->
