@@ -1,2 +1,16 @@
-<p>user-options works!</p>
-<h3 (click)='goBack()'>Go Back</h3>
+<div class="user-options-panel">
+    <h3>Current User: {{ usersSVC.currentUser.name }} </h3>
+
+    <div class='toggleUser'>
+        <button (click)='toggleUser(-1)'>Prev User</button>
+        <button (click)='toggleUser(1)'>Next User</button>
+    </div>
+    
+    <div class="buttons">
+        <button (click)="todosSVC.getCurrentUsersTodos() ">Todos</button>
+        <button (click)="locationSVC.currentLocation = 'posts-panel' ">Posts</button>
+        <button (click)="locationSVC.currentLocation = 'comments-panel' ">Comments</button>
+    </div>
+   
+    <h3 (click)='goBack()'>Go Back</h3>
+</div>
